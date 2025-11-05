@@ -404,7 +404,7 @@ func main() {
 	fmt.Println(start)
 	ds := []Desk{start}
 	s := NewSolver(start)
-	maxsteps := 25
+	maxsteps := 40
 	for step := 0; step < maxsteps; step++ {
 		var ok bool
 		ds, ok = s.Step(step, ds...)
