@@ -2,6 +2,10 @@
 
 ## Usage
 
+Note: if you're too lazy or don't have Go compiler, go to unblock.go code,
+Ctrl-A + Ctrl-C to copy it all, then go to http://play.go.dev/ and
+paste the code there.  Then Run it and you've got the result.
+
 Edit the `unblock.go` and change the value of the initial state of the
 desk.  Example:
 
